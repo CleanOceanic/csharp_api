@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CleanOceanic/1.0.0": {
+        "runtime": {
+          "CleanOceanic.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CleanOceanic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
