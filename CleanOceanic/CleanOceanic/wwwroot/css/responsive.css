@@ -1,0 +1,145 @@
+/* Mobile Styles */
+@media only screen and (max-width: 767px) {
+    header {
+        padding: 15px 20px;
+    }
+
+        header nav {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 20px;
+        }
+
+            header nav div {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+            }
+
+                header nav div .menu-hamburguer {
+                    background-color: transparent;
+                    display: flex;
+                }
+
+            header nav img {
+                width: 55vw;
+            }
+
+            header nav .menu-items {
+                display: none;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 20px;
+            }
+
+            header nav ul li a {
+                text-decoration: none;
+                color: #486284;
+                font-size: 18px;
+            }
+
+    main {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    section {
+        height: 45vh;
+    }
+
+        section.about, section.company, section.volunteer {
+            height: 90vh;
+        }
+
+        section.about, section.company {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        section.volunteer {
+            flex-direction: column-reverse;
+        }
+
+        section div {
+            height: 45vh;
+        }
+
+        section.volunteer div {
+            height: 32vh;
+        }
+
+        section div img {
+            width: 70vw;
+        }
+
+    footer {
+        gap: 80px;
+    }
+
+        footer div ul {
+            flex-direction: column;
+        }
+
+    /* ABOUT */
+
+    main.content-sobre {
+        height: fit-content;
+    }
+
+    .section-somos {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+        .section-somos div:nth-child(2), .section-somos div:nth-child(3) {
+            border-top: 1px solid;
+            border-left: 0;
+        }
+
+    .container-title {
+        font-size: 26px;
+    }
+
+    .container-team-members {
+        width: 85vw;
+    }
+
+    .container-member {
+        padding: 15px;
+        width: 65vw;
+        height: 100%;
+    }
+
+    .container-member-img {
+        width: 16vw;
+    }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 768px) and (max-width: 1439px) {
+    section div {
+        height: 40vh;
+    }
+
+
+    /* ABOUT */
+    main.content-sobre {
+        height: fit-content;
+    }
+
+    .container-member {
+        width: 45vw;
+        height: 100%;
+    }
+}
+
+/* Notebook Styles */
+@media only screen and (min-width: 1440px) {
+}

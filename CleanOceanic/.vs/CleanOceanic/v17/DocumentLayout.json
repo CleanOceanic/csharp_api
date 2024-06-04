@@ -1,7 +1,32 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\FIAP\\Technos\\Global Soluction\\Semestre_1\\csharp_api\\CleanOceanic\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DF89AF77-7635-43AA-BD10-808762908E21}|CleanOceanic\\CleanOceanic.csproj|c:\\users\\user\\documents\\fiap\\technos\\global soluction\\semestre_1\\csharp_api\\cleanoceanic\\cleanoceanic\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF89AF77-7635-43AA-BD10-808762908E21}|CleanOceanic\\CleanOceanic.csproj|solutionrelative:cleanoceanic\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF89AF77-7635-43AA-BD10-808762908E21}|CleanOceanic\\CleanOceanic.csproj|c:\\users\\user\\documents\\fiap\\technos\\global soluction\\semestre_1\\csharp_api\\cleanoceanic\\cleanoceanic\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF89AF77-7635-43AA-BD10-808762908E21}|CleanOceanic\\CleanOceanic.csproj|solutionrelative:cleanoceanic\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF89AF77-7635-43AA-BD10-808762908E21}|CleanOceanic\\CleanOceanic.csproj|c:\\users\\user\\documents\\fiap\\technos\\global soluction\\semestre_1\\csharp_api\\cleanoceanic\\cleanoceanic\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF89AF77-7635-43AA-BD10-808762908E21}|CleanOceanic\\CleanOceanic.csproj|solutionrelative:cleanoceanic\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF89AF77-7635-43AA-BD10-808762908E21}|CleanOceanic\\CleanOceanic.csproj|c:\\users\\user\\documents\\fiap\\technos\\global soluction\\semestre_1\\csharp_api\\cleanoceanic\\cleanoceanic\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF89AF77-7635-43AA-BD10-808762908E21}|CleanOceanic\\CleanOceanic.csproj|solutionrelative:cleanoceanic\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF89AF77-7635-43AA-BD10-808762908E21}|CleanOceanic\\CleanOceanic.csproj|c:\\users\\user\\documents\\fiap\\technos\\global soluction\\semestre_1\\csharp_api\\cleanoceanic\\cleanoceanic\\wwwroot\\css\\responsive.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{DF89AF77-7635-43AA-BD10-808762908E21}|CleanOceanic\\CleanOceanic.csproj|solutionrelative:cleanoceanic\\wwwroot\\css\\responsive.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF89AF77-7635-43AA-BD10-808762908E21}|CleanOceanic\\CleanOceanic.csproj|c:\\users\\user\\documents\\fiap\\technos\\global soluction\\semestre_1\\csharp_api\\cleanoceanic\\cleanoceanic\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{DF89AF77-7635-43AA-BD10-808762908E21}|CleanOceanic\\CleanOceanic.csproj|solutionrelative:cleanoceanic\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +34,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\FIAP\\Technos\\Global Soluction\\Semestre_1\\csharp_api\\CleanOceanic\\CleanOceanic\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CleanOceanic\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\FIAP\\Technos\\Global Soluction\\Semestre_1\\csharp_api\\CleanOceanic\\CleanOceanic\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CleanOceanic\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAswBQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T23:54:57.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\FIAP\\Technos\\Global Soluction\\Semestre_1\\csharp_api\\CleanOceanic\\CleanOceanic\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "CleanOceanic\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\FIAP\\Technos\\Global Soluction\\Semestre_1\\csharp_api\\CleanOceanic\\CleanOceanic\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "CleanOceanic\\Views\\Home\\About.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFgAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-03T23:44:36.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "responsive.css",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\FIAP\\Technos\\Global Soluction\\Semestre_1\\csharp_api\\CleanOceanic\\CleanOceanic\\wwwroot\\css\\responsive.css",
+              "RelativeDocumentMoniker": "CleanOceanic\\wwwroot\\css\\responsive.css",
+              "ToolTip": "C:\\Users\\User\\Documents\\FIAP\\Technos\\Global Soluction\\Semestre_1\\csharp_api\\CleanOceanic\\CleanOceanic\\wwwroot\\css\\responsive.css",
+              "RelativeToolTip": "CleanOceanic\\wwwroot\\css\\responsive.css",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAiwJEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-03T02:14:42.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\FIAP\\Technos\\Global Soluction\\Semestre_1\\csharp_api\\CleanOceanic\\CleanOceanic\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CleanOceanic\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\FIAP\\Technos\\Global Soluction\\Semestre_1\\csharp_api\\CleanOceanic\\CleanOceanic\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CleanOceanic\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACEAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-03T00:43:14.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\FIAP\\Technos\\Global Soluction\\Semestre_1\\csharp_api\\CleanOceanic\\CleanOceanic\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CleanOceanic\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\FIAP\\Technos\\Global Soluction\\Semestre_1\\csharp_api\\CleanOceanic\\CleanOceanic\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CleanOceanic\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-03T00:23:35.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\FIAP\\Technos\\Global Soluction\\Semestre_1\\csharp_api\\CleanOceanic\\CleanOceanic\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "CleanOceanic\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\User\\Documents\\FIAP\\Technos\\Global Soluction\\Semestre_1\\csharp_api\\CleanOceanic\\CleanOceanic\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "CleanOceanic\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAABABAAAAAAAAAAAiwDMBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-03T00:23:25.266Z",
+              "EditorCaption": ""
             }
           ]
         }

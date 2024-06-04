@@ -4,46 +4,67 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - CleanOceanic</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="shortcut icon" href="~/img/logo-icon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="~/css/reset.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/CleanOceanic.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/pages/about.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/responsive.css" asp-append-version="true" />
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">CleanOceanic</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+        <nav>
+            <div>
+                <a asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="~/img/Logo-Text_BlueDark.svg" alt="CleanOceanic Logo">
+                </a>
+                <button class="menu-hamburguer" onclick="toggleMenu()">
+                    <div class="menu-hamburguer-img"></div>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
             </div>
+            <ul class="menu-items">
+                <li><a asp-area="" asp-controller="Home" asp-action="Index">Início</a></li>
+                <li><a asp-area="" asp-controller="Home" asp-action="About">Sobre</a></li>
+                <li><a asp-area="" asp-controller="Volunteer" asp-action="Index">Voluntário</a></li>
+                <li><a asp-area="" asp-controller="Company" asp-action="Index">Empresa</a></li>
+                <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Privacidade</a></li>
+            </ul>
         </nav>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+    
+    @RenderBody()
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2024 - CleanOceanic - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <div class="container-footer">
+        <div class="footer-waves">
+            <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                 viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                <defs>
+                    <path id="gentle-wave"
+                          d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                </defs>
+                <g class="parallax">
+                    <use xlink:href="#gentle-wave" x="48" y="0" fill="#C0D9F5" />
+                    <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+                    <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+                    <use xlink:href="#gentle-wave" x="48" y="7" fill="#DEE5ED" />
+                </g>
+            </svg>
         </div>
-    </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+        <footer>
+            <img src="~/img/Logo-Text_BlueDark.svg" alt="Clean Oceanic Logo">
+            <div>
+                <ul>
+                    <li><a>Início</a></li>
+                    <li><a>Sobre</a></li>
+                    <li><a>Voluntário</a></li>
+                    <li><a>Empresa</a></li>
+                    <li><a>Privacidade</a></li>
+                </ul>
+            </div>
+            <div>
+                <p>© 2024 CleanOceanic por Technos. Todos os direitos reservados.</p>
+            </div>
+        </footer>
+    </div>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

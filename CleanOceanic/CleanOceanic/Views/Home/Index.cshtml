@@ -1,8 +1,77 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Página Inicial";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<main>
+    <div class="container-principal">
+        <div class="principal">
+            <div class="principal-content">
+                <h1 class="principal-title">Limpe o Oceano Conosco</h1>
+                <p class="principal-paragraph">Seja um voluntário e ajude a limpar o oceano de plástico</p>
+            </div>
+            <div class="principal-waves">
+                <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                     viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                    <defs>
+                        <path id="gentle-wave"
+                              d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                    </defs>
+                    <g class="parallax">
+                        <use xlink:href="#gentle-wave" x="48" y="0" fill="#C0D9F5" />
+                        <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+                        <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+                        <use xlink:href="#gentle-wave" x="48" y="7" fill="#071830" />
+                    </g>
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <section class="about">
+        <div class="content">
+            <h2>Sobre a CleanOceanic</h2>
+            <p class="content-paragraph">
+                A CleanOceanic é uma organização sem fins lucrativos que tem como objetivo
+                limpar o oceano de plástico.
+                Acreditamos que a preservação do meio ambiente é responsabilidade de todos e, por isso,
+                contamos com a ajuda de voluntários para realizar a limpeza das praias e dos oceanos.
+            </p>
+            <a class="btn-content">Saiba Mais</a>
+        </div>
+        <div class="image-content">
+            <img src="~/img/lixos/lixos_praia.jpg" alt="Imagem de uma praia com lixo plástico">
+        </div>
+    </section>
+
+    <section class="volunteer">
+        <div class="image-content">
+            <img src="~/img/lixos/lixos_voluntarios.jpg" alt="Imagem de um grupo de voluntários limpando a praia">
+        </div>
+        <div class="content">
+            <h2>Seja um voluntário</h2>
+            <p class="content-paragraph">
+                Se você se preocupa com o meio ambiente e quer fazer a diferença, junte-se
+                a nós! Cadastre-se como voluntário e participe das nossas ações de limpeza das praias e dos oceanos.
+                Juntos, podemos tornar o mundo um lugar melhor para as futuras gerações.
+            </p>
+            <a class="btn-content">Candidate-se</a>
+        </div>
+    </section>
+
+    <section class="company">
+        <div class="content">
+            <h2>Seja uma empresa parceira</h2>
+            <p class="content-paragraph">
+                Se você é uma empresa e quer contribuir para a preservação do meio
+                ambiente, torne-se um parceiro da Clean Oceanic! Além de ajudar na limpeza das praias e dos oceanos,
+                você estará associ
+                ando a sua marca a uma causa nobre e engajando os seus colaboradores em ações de responsabilidade
+                social.
+            </p>
+            <a class="btn-content">Junte-se a Nós</a>
+        </div>
+        <div class="image-content">
+            <img src="~/img/lixos/lixos_empresaParceira.jpg" alt="Imagem de uma empresa parceira da Clean Oceanic">
+        </div>
+    </section>
+</main>

@@ -5,12 +5,76 @@
       "PackagePath": "staticwebassets\\CleanOceanic.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\User\\Documents\\FIAP\\Technos\\Global Soluction\\Semestre_1\\csharp_api\\CleanOceanic\\CleanOceanic\\wwwroot\\css\\pages\\about.css",
+      "PackagePath": "staticwebassets\\css\\pages\\about.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\FIAP\\Technos\\Global Soluction\\Semestre_1\\csharp_api\\CleanOceanic\\CleanOceanic\\wwwroot\\css\\reset.css",
+      "PackagePath": "staticwebassets\\css\\reset.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\FIAP\\Technos\\Global Soluction\\Semestre_1\\csharp_api\\CleanOceanic\\CleanOceanic\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
       "Id": "C:\\Users\\User\\Documents\\FIAP\\Technos\\Global Soluction\\Semestre_1\\csharp_api\\CleanOceanic\\CleanOceanic\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\User\\Documents\\FIAP\\Technos\\Global Soluction\\Semestre_1\\csharp_api\\CleanOceanic\\CleanOceanic\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\FIAP\\Technos\\Global Soluction\\Semestre_1\\csharp_api\\CleanOceanic\\CleanOceanic\\wwwroot\\img\\Logo-Text_BlueDark.svg",
+      "PackagePath": "staticwebassets\\img\\Logo-Text_BlueDark.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\FIAP\\Technos\\Global Soluction\\Semestre_1\\csharp_api\\CleanOceanic\\CleanOceanic\\wwwroot\\img\\icon-close.svg",
+      "PackagePath": "staticwebassets\\img\\icon-close.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\FIAP\\Technos\\Global Soluction\\Semestre_1\\csharp_api\\CleanOceanic\\CleanOceanic\\wwwroot\\img\\icon-hamburguer.svg",
+      "PackagePath": "staticwebassets\\img\\icon-hamburguer.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\FIAP\\Technos\\Global Soluction\\Semestre_1\\csharp_api\\CleanOceanic\\CleanOceanic\\wwwroot\\img\\integrantes\\kaiquesantos.png",
+      "PackagePath": "staticwebassets\\img\\integrantes\\kaiquesantos.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\FIAP\\Technos\\Global Soluction\\Semestre_1\\csharp_api\\CleanOceanic\\CleanOceanic\\wwwroot\\img\\integrantes\\marceloamellopaixao.png",
+      "PackagePath": "staticwebassets\\img\\integrantes\\marceloamellopaixao.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\FIAP\\Technos\\Global Soluction\\Semestre_1\\csharp_api\\CleanOceanic\\CleanOceanic\\wwwroot\\img\\integrantes\\rodrigobatista.png",
+      "PackagePath": "staticwebassets\\img\\integrantes\\rodrigobatista.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\FIAP\\Technos\\Global Soluction\\Semestre_1\\csharp_api\\CleanOceanic\\CleanOceanic\\wwwroot\\img\\integrantes\\thiagomartins.png",
+      "PackagePath": "staticwebassets\\img\\integrantes\\thiagomartins.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\FIAP\\Technos\\Global Soluction\\Semestre_1\\csharp_api\\CleanOceanic\\CleanOceanic\\wwwroot\\img\\integrantes\\vinioalmeida.png",
+      "PackagePath": "staticwebassets\\img\\integrantes\\vinioalmeida.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\FIAP\\Technos\\Global Soluction\\Semestre_1\\csharp_api\\CleanOceanic\\CleanOceanic\\wwwroot\\img\\lixos\\lixos_empresaParceira.jpg",
+      "PackagePath": "staticwebassets\\img\\lixos\\lixos_empresaParceira.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\FIAP\\Technos\\Global Soluction\\Semestre_1\\csharp_api\\CleanOceanic\\CleanOceanic\\wwwroot\\img\\lixos\\lixos_oceano.jpg",
+      "PackagePath": "staticwebassets\\img\\lixos\\lixos_oceano.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\FIAP\\Technos\\Global Soluction\\Semestre_1\\csharp_api\\CleanOceanic\\CleanOceanic\\wwwroot\\img\\lixos\\lixos_praia.jpg",
+      "PackagePath": "staticwebassets\\img\\lixos\\lixos_praia.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\FIAP\\Technos\\Global Soluction\\Semestre_1\\csharp_api\\CleanOceanic\\CleanOceanic\\wwwroot\\img\\lixos\\lixos_voluntarios.jpg",
+      "PackagePath": "staticwebassets\\img\\lixos\\lixos_voluntarios.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\FIAP\\Technos\\Global Soluction\\Semestre_1\\csharp_api\\CleanOceanic\\CleanOceanic\\wwwroot\\img\\logo-icon.svg",
+      "PackagePath": "staticwebassets\\img\\logo-icon.svg"
     },
     {
       "Id": "C:\\Users\\User\\Documents\\FIAP\\Technos\\Global Soluction\\Semestre_1\\csharp_api\\CleanOceanic\\CleanOceanic\\wwwroot\\js\\site.js",
