@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="~/css/reset.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/pages/about.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/listagem.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/cadastro.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/responsive.css" asp-append-version="true" />
 </head>
 <body>
@@ -26,7 +28,6 @@
                 <li><a asp-area="" asp-controller="Home" asp-action="About">Sobre</a></li>
                 <li><a asp-area="" asp-controller="Volunteer" asp-action="Index">Voluntário</a></li>
                 <li><a asp-area="" asp-controller="Company" asp-action="Index">Empresa</a></li>
-                <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Privacidade</a></li>
             </ul>
         </nav>
     </header>
@@ -53,11 +54,10 @@
             <img src="~/img/Logo-Text_BlueDark.svg" alt="Clean Oceanic Logo">
             <div>
                 <ul>
-                    <li><a>Início</a></li>
-                    <li><a>Sobre</a></li>
-                    <li><a>Voluntário</a></li>
-                    <li><a>Empresa</a></li>
-                    <li><a>Privacidade</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Início</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="About">Sobre</a></li>
+                    <li><a asp-area="" asp-controller="Volunteer" asp-action="Index">Voluntário</a></li>
+                    <li><a asp-area="" asp-controller="Company" asp-action="Index">Empresa</a></li>
                 </ul>
             </div>
             <div>
@@ -66,5 +66,8 @@
         </footer>
     </div>
     @await RenderSectionAsync("Scripts", required: false)
+    <script src="~/js/site.js"></script>
+    <script src="~/js/responsive.js"></script>
+    <script src="~/js/confirm-delete.js"></script>
 </body>
 </html>

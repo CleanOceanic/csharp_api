@@ -1,0 +1,16 @@
+﻿@model Volunteer
+@{
+    ViewData["Title"] = "Cadastro de Voluntários";
+}
+
+<main class="main-cadastro-content">
+    <div>
+        <h2 class="main-cadastro-title">Cadastro de Voluntários</h2>
+        <p id="alert-message">@TempData["msg"]</p>
+    </div>
+    <div class="content-general">
+        <form asp-action="Cadastrar" class="form-cadastro">
+            <partial name="_Form" model="Model"/>
+        </form>
+    </div>
+</main>

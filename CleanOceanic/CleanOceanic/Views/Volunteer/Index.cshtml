@@ -1,0 +1,73 @@
+﻿@model List<Volunteer>
+@{
+    ViewData["Title"] = "Página de Voluntários";
+}
+
+<main class="main-volunteer">
+    <div class="container-volunteer">
+        <div class="content-volunteer">
+            <h2>Voluntários</h2>
+            <div class="content-components">
+                <form method="get" asp-action="PesquisaNome" asp-controller="Volunteer" class="header-form-search">
+                    <input type="search" placeholder="Digite o nome de um(a) voluntário(a)..." aria-label="Search" name="searchString">
+                    <button type="submit" class="button-search-ico">
+                        <img src="~/img/icon-search.svg" alt="Ícone de Pesquisa" class="search-ico">
+                    </button>
+                </form>
+                <div>
+                    <a class="btn-volunteer-adc" asp-action="Cadastrar">
+                        Adicionar
+                        <div class="icon-adicionar"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="component-volunteer">
+            @foreach (var c in Model)
+            {
+                <div class="box-volunteer">
+                    <div class="box-volunteer-info">
+                        <h3 class="box-volunteer-title">@c.Nome</h3>
+                        <p class="box-volunteer-email">@c.Email</p>
+                        <p class="box-volunteer-phone">@FormatarTelefone(@c.Telefone)</p>
+                        <div class="actions-button">
+                            <a class="btn-volunteer" asp-action="Visualizar" asp-route-id="@c.IdUsuario">EXPANDIR</a>
+                            <a class="btn-volunteer button-link-remover" onclick="id_usuario.value = @c.IdUsuario">REMOVER</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</main>
+
+<div class="confirm-overlay">
+    <div class="confirm-content">
+        <div class="confirm-header">
+            <h5 class="confirm-title">Confirmação</h5>
+            <button type="button" class="button-confirm" onclick="hideConfirmOverlay()">X</button>
+        </div>
+        <div class="confirm-body">
+            Deseja realmente apagar o voluntário?
+        </div>
+        <div class="confirm-footer">
+            <form asp-action="remover">
+                <input name="id" type="hidden" id="id_usuario" />
+                <button type="button" class="button-confirm" onclick="hideConfirmOverlay()">Não</button>
+                <button type="submit" class="button-confirm" id="button-submit" onclick="hideConfirmOverlay(); showAlertMessage">Sim</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+@functions {
+    public string FormatarTelefone(string telefone)
+    {
+        if (string.IsNullOrEmpty(telefone) || telefone.Length != 11)
+        {
+            return telefone; // retorna o telefone sem formatar se não for possível formatar
+        }
+
+        return string.Format("({0}) {1}-{2}", telefone.Substring(0, 2), telefone.Substring(2, 5), telefone.Substring(7));
+    }
+}

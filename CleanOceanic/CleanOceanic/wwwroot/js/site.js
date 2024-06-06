@@ -1,4 +1,11 @@
-﻿// Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
-
-// Write your JavaScript code.
+﻿function togglePassword() {
+    var pswdField = document.getElementById("pswd");
+    var showPasswordText = document.querySelector(".password-show");
+    if (pswdField.type === "password") {
+        pswdField.type = "text";
+        showPasswordText.textContent = "Ocultar Senha";
+    } else {
+        pswdField.type = "password";
+        showPasswordText.textContent = "Mostrar Senha";
+    }
+}

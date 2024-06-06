@@ -1,0 +1,16 @@
+﻿@model Company
+@{
+    ViewData["Title"] = "Perfil da Empresa";
+}
+
+<main class="main-cadastro-content">
+    <div class="main-cadastro-component">
+        <h2 class="main-cadastro-title">Exibição da Empresa de ID: @Model.IdEmpresa</h2>
+        <p id="alert-message">@TempData["msg"]</p>
+    </div>
+    <div class="content-general">
+        <form asp-action="editar" class="form-cadastro">
+            <partial name="_FormEditar" model="Model" />
+        </form>
+    </div>
+</main>

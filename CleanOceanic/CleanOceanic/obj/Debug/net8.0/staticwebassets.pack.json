@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\CleanOceanic.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\User\\Documents\\FIAP\\Technos\\Global Soluction\\Semestre_1\\csharp_api\\CleanOceanic\\CleanOceanic\\wwwroot\\css\\cadastro.css",
+      "PackagePath": "staticwebassets\\css\\cadastro.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\FIAP\\Technos\\Global Soluction\\Semestre_1\\csharp_api\\CleanOceanic\\CleanOceanic\\wwwroot\\css\\listagem.css",
+      "PackagePath": "staticwebassets\\css\\listagem.css"
+    },
+    {
       "Id": "C:\\Users\\User\\Documents\\FIAP\\Technos\\Global Soluction\\Semestre_1\\csharp_api\\CleanOceanic\\CleanOceanic\\wwwroot\\css\\pages\\about.css",
       "PackagePath": "staticwebassets\\css\\pages\\about.css"
     },
@@ -35,6 +43,10 @@
     {
       "Id": "C:\\Users\\User\\Documents\\FIAP\\Technos\\Global Soluction\\Semestre_1\\csharp_api\\CleanOceanic\\CleanOceanic\\wwwroot\\img\\icon-hamburguer.svg",
       "PackagePath": "staticwebassets\\img\\icon-hamburguer.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\FIAP\\Technos\\Global Soluction\\Semestre_1\\csharp_api\\CleanOceanic\\CleanOceanic\\wwwroot\\img\\icon-search.svg",
+      "PackagePath": "staticwebassets\\img\\icon-search.svg"
     },
     {
       "Id": "C:\\Users\\User\\Documents\\FIAP\\Technos\\Global Soluction\\Semestre_1\\csharp_api\\CleanOceanic\\CleanOceanic\\wwwroot\\img\\integrantes\\kaiquesantos.png",
@@ -75,6 +87,14 @@
     {
       "Id": "C:\\Users\\User\\Documents\\FIAP\\Technos\\Global Soluction\\Semestre_1\\csharp_api\\CleanOceanic\\CleanOceanic\\wwwroot\\img\\logo-icon.svg",
       "PackagePath": "staticwebassets\\img\\logo-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\FIAP\\Technos\\Global Soluction\\Semestre_1\\csharp_api\\CleanOceanic\\CleanOceanic\\wwwroot\\js\\confirm-delete.js",
+      "PackagePath": "staticwebassets\\js\\confirm-delete.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\FIAP\\Technos\\Global Soluction\\Semestre_1\\csharp_api\\CleanOceanic\\CleanOceanic\\wwwroot\\js\\responsive.js",
+      "PackagePath": "staticwebassets\\js\\responsive.js"
     },
     {
       "Id": "C:\\Users\\User\\Documents\\FIAP\\Technos\\Global Soluction\\Semestre_1\\csharp_api\\CleanOceanic\\CleanOceanic\\wwwroot\\js\\site.js",

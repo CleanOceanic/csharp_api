@@ -1,0 +1,216 @@
+.main-volunteer, .main-company {
+    padding: 30px 100px;
+    height: fit-content;
+    min-height: 47vh;
+}
+
+.container-volunteer, .container-company {
+    width: 100%;
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-volunteer, .content-company {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.content-components {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+}
+
+.header-form-search {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+input[type="search"] {
+    width: 100%;
+    height: 5vh;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 10px 0 0 10px;
+    outline: none;
+}
+
+.button-search-ico[type="submit"] {
+    padding: 4px 4px;
+    border: 0;
+    border-radius: 0 4px 4px 0;
+    background-color: #77a7dfdc;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+
+.button-search-ico[type="submit"]:hover {
+    background-color: #357CCF;
+}
+
+.search-ico {
+    width: 4vw;
+    height: 4vh;
+}
+
+.component-volunteer, .component-company {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box-volunteer, .box-company {
+    background-color: #dee5ed;
+    height: 260px;
+    width: auto;
+    min-width: 21vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.box-volunteer-info, .box-company-info {
+    padding: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.box-volunteer-title, .box-volunteer-email, .box-volunteer-phone,
+.box-company-title, .box-company-email, .box-company-phone {
+    color: #486284;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.actions-button {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn-volunteer, .btn-volunteer-adc,
+.btn-company, .btn-company-adc {
+    background-color: #77a7dfdc;
+    width: 160px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: all 0.6s;
+}
+
+.btn-volunteer:nth-child(2), .btn-company:nth-child(2) {
+    background-color: #a54c4c;
+    color: #FFFFFF;
+}
+
+.btn-volunteer:hover, .btn-volunteer-adc:hover,
+.btn-company:hover, .btn-company-adc:hover {
+    cursor: pointer;
+    background-color: #357CCF;
+    color: #FFFFFF;
+}
+
+.btn-volunteer:nth-child(2):hover, .btn-company:nth-child(2):hover {
+    cursor: pointer;
+    background-color: #b30707;
+    color: #FFFFFF;
+}
+
+/* Confirmação de Exclusão */
+
+.confirm-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.confirm-content {
+    background-color: #dee5ed;
+    padding: 30px;
+    border-radius: 5px;
+    max-width: 400px;
+    text-align: center;
+}
+
+.confirm-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.confirm-title {
+    color: #071830;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.button-close {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.confirm-body {
+    color: #071830;
+    margin-bottom: 25px;
+}
+
+.confirm-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.button-confirm {
+    cursor: pointer;
+    background-color: #77a7dfdc;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #071830;
+    transition: all 0.4s;
+}
+
+.button-close:hover, .button-confirm:hover {
+    background-color: #071830;
+    color: #FFFFFF;
+}

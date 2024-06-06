@@ -1,0 +1,73 @@
+﻿@model List<Company>
+@{
+    ViewData["Title"] = "Página de Empresa";
+}
+
+<main class="main-company">
+    <div class="container-company">
+        <div class="content-company">
+            <h2>Empresas</h2>
+            <div class="content-components">
+                <form method="get" asp-action="PesquisaNome" asp-controller="Company" class="header-form-search">
+                    <input type="search" placeholder="Digite o nome de uma empresa..." aria-label="Search" name="searchString">
+                    <button type="submit" class="button-search-ico">
+                        <img src="~/img/icon-search.svg" alt="Ícone de Pesquisa" class="search-ico">
+                    </button>
+                </form>
+                <div>
+                    <a class="btn-company-adc" asp-action="Cadastrar">
+                        Adicionar
+                        <div class="icon-adicionar"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="component-company">
+            @foreach (var c in Model)
+            {
+                <div class="box-company">
+                    <div class="box-company-info">
+                        <h3 class="box-company-title">@c.RazaoSocial</h3>
+                        <p class="box-company-email">@c.Email</p>
+                        <p class="box-company-phone">@FormatarTelefone(@c.Telefone)</p>
+                        <div class="actions-button">
+                            <a class="btn-company" asp-action="Visualizar" asp-route-id="@c.IdEmpresa">EXPANDIR</a>
+                            <a class="btn-company button-link-remover" onclick="id_empresa.value = @c.IdEmpresa">REMOVER</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</main>
+
+<div class="confirm-overlay">
+    <div class="confirm-content">
+        <div class="confirm-header">
+            <h5 class="confirm-title">Confirmação</h5>
+            <button type="button" class="button-confirm" onclick="hideConfirmOverlay()">X</button>
+        </div>
+        <div class="confirm-body">
+            Deseja realmente apagar a empresa?
+        </div>
+        <div class="confirm-footer">
+            <form asp-action="remover">
+                <input name="id" type="hidden" id="id_empresa" />
+                <button type="button" class="button-confirm" onclick="hideConfirmOverlay()">Não</button>
+                <button type="submit" class="button-confirm" id="button-submit" onclick="hideConfirmOverlay(); showAlertMessage">Sim</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+@functions {
+    public string FormatarTelefone(string telefone)
+    {
+        if (string.IsNullOrEmpty(telefone) || telefone.Length != 11)
+        {
+            return telefone; // retorna o telefone sem formatar se não for possível formatar
+        }
+
+        return string.Format("({0}) {1}-{2}", telefone.Substring(0, 2), telefone.Substring(2, 5), telefone.Substring(7));
+    }
+}

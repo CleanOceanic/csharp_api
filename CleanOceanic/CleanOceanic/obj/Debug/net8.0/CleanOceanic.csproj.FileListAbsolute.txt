@@ -29,3 +29,7 @@ C:\Users\User\Documents\FIAP\Technos\Global Soluction\Semestre_1\csharp_api\Clea
 C:\Users\User\Documents\FIAP\Technos\Global Soluction\Semestre_1\csharp_api\CleanOceanic\CleanOceanic\obj\Debug\net8.0\CleanOceanic.pdb
 C:\Users\User\Documents\FIAP\Technos\Global Soluction\Semestre_1\csharp_api\CleanOceanic\CleanOceanic\obj\Debug\net8.0\CleanOceanic.genruntimeconfig.cache
 C:\Users\User\Documents\FIAP\Technos\Global Soluction\Semestre_1\csharp_api\CleanOceanic\CleanOceanic\obj\Debug\net8.0\ref\CleanOceanic.dll
+C:\Users\User\Documents\FIAP\Technos\Global Soluction\Semestre_1\csharp_api\CleanOceanic\CleanOceanic\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\User\Documents\FIAP\Technos\Global Soluction\Semestre_1\csharp_api\CleanOceanic\CleanOceanic\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\User\Documents\FIAP\Technos\Global Soluction\Semestre_1\csharp_api\CleanOceanic\CleanOceanic\obj\Debug\net8.0\CleanOceanic.csproj.AssemblyReference.cache
+C:\Users\User\Documents\FIAP\Technos\Global Soluction\Semestre_1\csharp_api\CleanOceanic\CleanOceanic\obj\Debug\net8.0\CleanOce.A2B9BEF1.Up2Date

@@ -1,0 +1,68 @@
+﻿@model Volunteer
+
+<div class="content-left">
+    <h2 class="cadastro-title">Informações Gerais</h2>
+    <div class="content-form">
+        <input type="hidden" asp-for="IdUsuario" />
+        <div class="box-input">
+            <label class="label-input" asp-for="Nome">Nome</label>
+            <input type="text" asp-for="Nome" required>
+        </div>
+        <div class="box-input">
+            <label class="label-input" asp-for="DtNascimento">Data de Nascimento</label>
+            <input type="date" asp-for="DtNascimento" required>
+        </div>
+        <div class="box-input">
+            <label class="label-input" asp-for="Genero">Gênero</label>
+            <select asp-for="Genero" asp-items="@Html.GetEnumSelectList<Genero>()" required>
+                <option>Informe o Gênero</option>
+            </select>
+        </div>
+        <div class="box-input">
+            <label class="label-input" asp-for="Telefone">Telefone</label>
+            <input type="tel" asp-for="Telefone" required>
+        </div>
+        <div class="box-input">
+            <label class="label-input" asp-for="Email">E-mail</label>
+            <input type="email" asp-for="Email" required>
+        </div>
+        <div class="box-input">
+            <label class="label-input" asp-for="Senha">Senha</label>
+            <input type="password" id="pswd" asp-for="Senha" required>
+            <span class="password-show" onclick="togglePassword()">Mostrar Senha</span>
+        </div>
+    </div>
+</div>
+<div class="content-right">
+    <h2 class="cadastro-title">Detalhes Gerais</h2>
+    <div class="content-form">
+        <div class="box-input">
+            <label class="label-input" asp-for="Address.Logradouro">Logradouro</label>
+            <input type="text" asp-for="Address.Logradouro" required>
+        </div>
+        <div class="box-input">
+            <label class="label-input" asp-for="Address.Numero">Numero</label>
+            <input type="number" asp-for="Address.Numero" required>
+        </div>
+        <div class="box-input">
+            <label class="label-input" asp-for="Address.Bairro">Bairro</label>
+            <input type="text" asp-for="Address.Bairro" required>
+        </div>
+        <div class="box-input">
+            <label class="label-input" asp-for="Address.Cidade">Cidade</label>
+            <input type="text" asp-for="Address.Cidade" required>
+        </div>
+        <div class="box-input">
+            <label class="label-input" asp-for="Address.SiglaEstado">Sigla do Estado</label>
+            <input type="text" asp-for="Address.SiglaEstado" required>
+        </div>
+        <div class="box-input">
+            <label class="label-input" asp-for="Address.Cep">CEP</label>
+            <input type="text" asp-for="Address.Cep" required>
+        </div>
+        <div class="box-button-cadastrar">
+            <button class="btn-cadastro-form" type="submit">CADASTRAR</button>
+            <a class="btn-cadastro-form" asp-action="Index">VOLTAR</a>
+        </div>
+    </div>
+</div>
