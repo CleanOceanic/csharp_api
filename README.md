@@ -2,4 +2,4 @@
 
 
 ### Video Pitch
-[Video Pitch](https://youtu.be/8eTHW4eEJ0Y)
+https://youtu.be/8eTHW4eEJ0Y
