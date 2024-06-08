@@ -1,4 +1,4 @@
-# Clean Oceanic
+![Text_Grey](https://github.com/CleanOceanic/csharp_api/assets/80494196/3403597c-4d90-4aca-a354-e46f70816b12)
 
 ## Sobre a Clean Oceanic
 
